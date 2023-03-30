@@ -1,0 +1,1015 @@
+/* Resetando qualquer config padrão */
+* {
+    margin: 0;
+    padding: 0;
+    color: #ffff;
+    text-decoration: none;
+}
+
+#header {
+    display: flex;
+
+    /* cor de fundo + transparencia */
+    background-color: rgba(30, 30, 30, 0.5); 
+
+    /* tamanho do fundo */
+    width: 1280px;
+    height: 78px;
+    
+    /* posição fixada + cor do texto */
+    position: fixed;
+    color: #ffff;
+}
+
+#logo-inatel-header{
+    display: flex;
+    /* alinha os itens no centro da barra */
+    align-items: center;
+}
+
+#logo-inatel-header img{
+    /* tamanho da imagem */
+    width: 101px;
+    height: 28px;
+
+    /* posição */
+    top: 24px;
+    margin-left: 64px;
+    margin-right: 520px;
+}
+
+.option {
+    /* fonte da letra */
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400; /* config fonte regular */
+    font-size: 20px;
+    color: #ffff;
+    
+
+    /* alinhas os items em uma linha unica */
+    display: inline-block;
+    line-height: 30px;
+
+    /* separa os itens */
+    margin-left: 40px; 
+}
+
+
+#home {
+    display: inline-block;
+    color: #ffff;
+
+    /* imagem de fundo */
+    background-image: linear-gradient(to top, #1e1e1e,transparent), url("../img/hero-image.png");
+    /* background-image: url("../img/hero-image.png"); */
+    background-position: center;
+    
+
+    /* tamanho */
+    width: 1280px;
+    height: 832px;
+
+    /* fill: rgba(30,30,30,0); */
+    
+}
+
+#title-semana-comp {
+    display: flex;
+    /* fonte */
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 32px;
+    font-weight: 400; /* regular */
+
+    /* config texto */
+    line-height: 48.67px;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    vertical-align: top;
+    width: 600px;
+    height: 49px;
+
+    /* Posicionamento */
+    margin-top: 595px;
+    margin-left: 99px;
+    margin-right: 776px;
+    
+}
+
+#title-IA {
+    display: inline;
+    /* config fonte */
+    font-family: 'Orbitron', sans-serif;
+    font-size: 56px;
+    font-weight: 600; /* SemiBold*/
+
+    /* config texto */
+    line-height: 70.22px;
+    text-align: left;
+    vertical-align: top;
+    width: 945px;
+    height: 70px;
+
+    /* posicionamento */
+    margin-left: 99px;
+    margin-top: 57px;
+}
+
+#text1 {
+    /* Fonte */
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: 400; /* regular */
+
+    /* config texto */
+    line-height: 30.42px;
+    width: 557px;
+    height: 30px;
+    text-align: left;
+    vertical-align: top;
+
+    /* Posicionamento */
+    margin-left: 99px;
+    margin-top: 8px;
+}
+
+#sobre {
+    display:flex;
+    /* cor de fundo + letra */
+    background-color: #1E1E1E;
+    color: #ffff;
+
+    /* tamanho do fundo */
+    width: 1280px;
+    height: 509px;
+    scale: 1px;
+    top: 832px; 
+}
+
+#title-fique-a-frente {
+    /* config fonte */
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600; /* SemiBold*/
+    font-size: 48px;
+
+    /* config texto */
+    line-height: 60px;
+    text-align: left;
+    vertical-align: top;
+    width: 575px;
+    height: 60px;
+
+    /* posição */
+    margin-left: 352px;
+    margin-top: 96px;
+}
+
+#subtitle-participe {
+      /* config fonte */
+    font-family:'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 400; /* regular*/
+
+    /* config texto */
+    line-height: 37px;
+    text-align: left;
+    vertical-align: top;
+    width: 368px;
+    height: 37px;
+    
+    /* posição */
+    margin-left: 455.5px;
+    margin-top: 4px;
+}
+
+#texto2 {
+    /* config fonte */
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: 400; /* regular*/
+
+    /* config texto */
+    line-height: 30px;
+    text-align: center;
+    vertical-align: top;
+
+    /* posição */
+    margin-top: 36px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 96px;
+}
+
+#programacao {
+    background-color: #403fff;
+    width: 1280px;
+    height: 1047px;
+    top: 1341px;
+    left: 1px;
+    gap: 10px;
+}
+
+#hackathon {
+    /* abrindo img */
+    background-image: url("../img/hackathon-background.png");
+
+    display: inline-block;
+
+    /* ajustando tamanho da img */
+    width: 1280px;
+    height: 445px;
+
+    /* fonte branca */
+    color: #ffff;
+}
+
+#hack-data {
+    /* config fonte */
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400; /* regular */
+    font-size: 24px;
+
+    /* config texto */
+    line-height: 37px;
+    text-align: left;
+    vertical-align: top;
+    width: 251px;
+    height: 37px;
+
+    /* posição */
+    margin-top: 183px;
+    margin-left: 99px;
+}
+
+#title-hackathon {
+    /* config fonte */
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600; /*SemiBold*/
+    font-size: 64px;
+
+    /* config texto */
+    line-height: 80px;
+    text-align: left;
+    vertical-align: top;
+    width: 473px;
+    height: 80px;
+
+    /* posição */
+    margin-left: 99px;   
+}
+
+#subtitle-app-challenge {
+    /* config fonte */
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600; /*SemiBold*/
+    font-size: 42px;
+
+    /* config texto */
+    line-height: 53px;
+    text-align: left;
+    vertical-align: top;
+    width: 477px;
+    height: 53px;
+
+    /* posição */
+    margin-left: 99px;
+}
+
+#footer {
+    display: inline-block;
+    /* cor de fundo +letra */
+    background-color: #1E1E1E;
+    color: #ffff;
+
+    /* tamanho do fundo */
+    width: 1280px;
+    height: 396px;
+    top: 2833px;  
+
+
+}
+
+#logo-inatel-footer img{
+    /* Tamanho da logo */
+    width: 180px;
+    height: 50px;
+
+    /* Posição */
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 1000px;
+    margin-bottom: 24px;
+}
+
+#inatel-name {
+    /* config fonte */
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+
+    /* config texto */
+    line-height: 30px;
+    text-align: left;
+    vertical-align: top;
+    width: 376px;
+    height: 30px;
+    
+    /* Ajustando o posicionamento na tela */
+    margin-left: 100px;
+    margin-right: 804px;
+}
+
+#inatel-info {
+    /* config letra */
+    font-family: 'Titillium Web', sans-serif;
+    font-style: regular;
+    font-size: 16px;
+
+    /* config texto */
+    line-height: 24px;
+    text-align: left;
+    vertical-align: top;
+    width: 322px;
+    height: 72px;
+
+   /* Ajustando o posicionamento na tela */
+   margin-left: 100px;
+   margin-right: 858px;
+   margin-bottom: 130px;
+  
+}
+
+/*
+#logo-cp2-footer img {
+    /* Tamanho da logo */
+    /* width: 180px;
+    height: 50px; */
+
+    /* Posição 
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 1000px;
+    margin-bottom: 24px;
+} */
+
+@media (max-width:960px)
+{
+    #header {
+        display: flex;
+    
+        /* cor de fundo + transparencia */
+        background-color: rgba(30, 30, 30, 0.5); 
+    
+        /* tamanho do fundo */
+        width: 960px;
+        height: 78px;
+        
+        /* posição fixada + cor do texto */
+        position: fixed;
+        color: #ffff;
+    }
+    
+    #logo-inatel-header{
+        display: flex;
+        /* alinha os itens no centro da barra */
+        align-items: center;
+    }
+    
+    #logo-inatel-header img{
+        /* tamanho da imagem */
+        width: 101px;
+        height: 28px;
+    
+        /* posição */
+        top: 24px;
+        margin-left: 64px;
+        margin-right: 230px;
+    }
+    
+    .option {
+        /* fonte da letra */
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 400; /* config fonte regular */
+        font-size: 20px;
+        color: #ffff;
+    
+        /* alinhas os items em uma linha unica */
+        display: inline-block;
+        line-height: 30px;
+    
+        /* separa os itens */
+        margin-left: 40px; 
+    }
+    
+    #home {
+        display: inline-block;
+        color: #ffff;
+    
+        /* imagem de fundo */
+        background-image: linear-gradient(to top, #1e1e1e,transparent), url("../img/hero-image.png");
+        background-position: center;
+        
+    
+        /* tamanho */
+        width: 960px;
+        height: 832px;
+    
+        /* fill: rgba(30,30,30,0); */
+        
+    }
+    
+    #title-semana-comp {
+        display: flex;
+        /* fonte */
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 32px;
+        font-weight: 400; /* regular */
+    
+        /* config texto */
+        line-height: 48.67px;
+        top: 0px;
+        left: 0px;
+        text-align: left;
+        vertical-align: top;
+        width: 404px;
+        height: 49px;
+    
+        /* Posicionamento */
+        margin-top: 541px;
+        margin-left: 99px;
+        margin-right: 456px;
+        
+    }
+    
+    #title-IA {
+        display: flex;
+        /* config fonte */
+        font-family: 'Orbitron', sans-serif;
+        font-size: 56px;
+        font-weight: 600; /* SemiBold*/
+    
+        /* config texto */
+        line-height: 70.22px;
+        text-align: left;
+        vertical-align: top;
+        width: 760px;
+        height: 140px;
+    
+        /* posicionamento */
+        margin-left: 99px;
+        margin-top: 1px;
+    }
+    
+    #text1 {
+        /* Fonte */
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 20px;
+        font-weight: 400; /* regular */
+    
+        /* config texto */
+        line-height: 30.42px;
+        width: 557px;
+        height: 30px;
+        text-align: left;
+        vertical-align: top;
+    
+        /* Posicionamento */
+        margin-left: 99px;
+        margin-top: 0px;
+    }
+    
+    #sobre {
+        display:flex;
+        /* cor de fundo + letra */
+        background-color: #1E1E1E;
+        color: #ffff;
+    
+        /* tamanho do fundo */
+        width: 960px;
+        height: 569px;
+        scale: 1px;
+        top: 832px; 
+    }
+    
+    #title-fique-a-frente {
+        /* config fonte */
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 600; /* SemiBold*/
+        font-size: 48px;
+    
+        /* config texto */
+        line-height: 60px;
+        text-align: left;
+        vertical-align: top;
+        width: 575px;
+        height: 60px;
+    
+        /* posição */
+        margin-left: 191.75px;
+        margin-top: 96px;
+    }
+    
+    #subtitle-participe {
+          /* config fonte */
+        font-family:'Titillium Web', sans-serif;
+        font-size: 24px;
+        font-weight: 400; /* regular*/
+    
+        /* config texto */
+        line-height: 36.5px;
+        text-align: left;
+        vertical-align: top;
+        width: 368px;
+        height: 37px;
+        
+        /* posição */
+        margin-left: 295.25px;
+        margin-top: 4px;
+    }
+    
+    #texto2 {
+        /* config fonte */
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 20px;
+        font-weight: 400; /* regular*/
+    
+        /* config texto */
+        line-height: 30px;
+        text-align: center;
+        vertical-align: top;
+    
+        /* posição */
+        margin-top: 36px;
+        margin-left: 99.25px;
+        margin-right: 99.75px;
+        margin-bottom: 96px;
+    }
+    
+    #programacao {
+        background-color: #403fff;
+        width: 960px;
+        height: 1383px;
+        top: 1341px;
+        left: 1px;
+        gap: 10px;
+    }
+    
+    #hackathon {
+        /* abrindo img */
+        background-image: url("../img/hackathon-background.png");
+        background-position: center;
+        display: inline-block;
+    
+        /* ajustando tamanho da img */
+        width: 960px;
+        height: 445px;
+    
+        /* fonte branca */
+        color: #ffff;
+    }
+    
+    #hack-data {
+        /* config fonte */
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 400; /* regular */
+        font-size: 24px;
+    
+        /* config texto */
+        line-height: 37px;
+        text-align: left;
+        vertical-align: top;
+        width: 251px;
+        height: 37px;
+    
+        /* posição */
+        margin-top: 183px;
+        margin-left: 99px;
+    }
+    
+    #title-hackathon {
+        /* config fonte */
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 600; /*SemiBold*/
+        font-size: 64px;
+    
+        /* config texto */
+        line-height: 80px;
+        text-align: left;
+        vertical-align: top;
+        width: 473px;
+        height: 80px;
+    
+        /* posição */
+        margin-left: 99px;   
+    }
+    
+    #subtitle-app-challenge {
+        /* config fonte */
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 600; /*SemiBold*/
+        font-size: 42px;
+    
+        /* config texto */
+        line-height: 53px;
+        text-align: left;
+        vertical-align: top;
+        width: 477px;
+        height: 53px;
+    
+        /* posição */
+        margin-left: 99px;
+    }
+    
+    #footer {
+        display: inline-block;
+        /* cor de fundo +letra */
+        background-color: #1E1E1E;
+        color: #ffff;
+    
+        /* tamanho do fundo */
+        width: 960px;
+        height: 396px;
+        top: 2833px;  
+    }
+    
+    #logo-inatel-footer img{
+        /* Tamanho da logo */
+        width: 180px;
+        height: 50px;
+    
+        /* Posição */
+        margin-top: 90px;
+        margin-left: 99px;
+        margin-right: 679px;
+        margin-bottom: 24px;
+    }
+    
+    #inatel-name {
+        /* config fonte */
+        font-family: 'Titillium Web', sans-serif;
+        font-style: italic;
+        font-size: 20px;
+    
+        /* config texto */
+        line-height: 30px;
+        text-align: left;
+        vertical-align: top;
+        width: 376px;
+        height: 30px;
+        
+        /* Ajustando o posicionamento na tela */
+        margin-left: 99px;
+        margin-right: 483px;
+    }
+    
+    #inatel-info {
+        /* config letra */
+        font-family: 'Titillium Web', sans-serif;
+        font-style: regular;
+        font-size: 16px;
+    
+        /* config texto */
+        line-height: 24px;
+        text-align: left;
+        vertical-align: top;
+        width: 322px;
+        height: 72px;
+    
+       /* Ajustando o posicionamento na tela */
+       margin-left: 99px;
+       margin-right: 537px;
+       margin-bottom: 130px;
+    }
+}
+
+@media (max-width:600px)
+{
+    #header {
+        display: flex;
+    
+        /* cor de fundo + transparencia */
+        background-color: rgba(30, 30, 30, 0.5); 
+    
+        /* tamanho do fundo */
+        width: 600px;
+        height: 76px;
+        
+        /* posição fixada + cor do texto */
+        position: fixed;
+        color: #ffff;
+    }
+    
+    #logo-inatel-header{
+        display: flex;
+        /* alinha os itens no centro da barra */
+        align-items: center;
+    }
+    
+    #logo-inatel-header img{
+        /* tamanho da imagem */
+        width: 101px;
+        height: 28px;
+    
+        /* posição */
+        top: 24px;
+        margin-left: 64px;
+        margin-right: 230px;
+    }
+    
+    /* .option { */
+        /* fonte da letra */
+        /* font-family: 'Titillium Web', sans-serif; */
+        /* font-weight: 400; config fonte regular */
+        /* font-size: 20px; */
+        /* color: #ffff; */
+    
+        /* alinhas os items em uma linha unica */
+        /* display: inline-block; */
+        /* line-height: 30px; */
+    
+        /* separa os itens */
+        /* margin-left: 40px;  */
+    /* } */
+    
+    #home {
+        display: inline-block;
+        color: #ffff;
+    
+        /* imagem de fundo */
+        background-image: linear-gradient(to top, #1e1e1e,transparent), url("../img/hero-image.png");
+        background-position: center;
+        
+    
+        /* tamanho */
+        width: 600px;
+        height: 832px;
+    
+        /* fill: rgba(30,30,30,0); */
+        
+    }
+    
+    #title-semana-comp {
+        display: flex;
+        /* fonte */
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 32px;
+        font-weight: 400; /* regular */
+    
+        /* config texto */
+        line-height: 48.67px;
+        top: 0px;
+        left: 0px;
+        text-align: left;
+        vertical-align: top;
+        width: 404px;
+        height: 49px;
+    
+        /* Posicionamento */
+        margin-top: 471px;
+        margin-left: 15px;
+        margin-right: 180px;
+        
+    }
+    
+    #title-IA {
+        display: flex;
+        /* config fonte */
+        font-family: 'Orbitron', sans-serif;
+        font-size: 56px;
+        font-weight: 600; /* SemiBold*/
+    
+        /* config texto */
+        line-height: 70.22px;
+        text-align: left;
+        vertical-align: top;
+        width: 569px;
+        height: 210px;
+    
+        /* posicionamento */
+        margin-left: 15px;
+        margin-top: 1px;
+    }
+    
+    #text1 {
+        /* Fonte */
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 20px;
+        font-weight: 400; /* regular */
+    
+        /* config texto */
+        line-height: 30.42px;
+        width: 557px;
+        height: 30px;
+        text-align: left;
+        vertical-align: top;
+    
+        /* Posicionamento */
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+    
+    #sobre {
+        display:flex;
+        /* cor de fundo + letra */
+        background-color: #1E1E1E;
+        color: #ffff;
+    
+        /* tamanho do fundo */
+        width: 600px;
+        height: 659px;
+        scale: 1px;
+        top: 832px; 
+    }
+    
+    #title-fique-a-frente {
+        /* config fonte */
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 600; /* SemiBold*/
+        font-size: 48px;
+    
+        /* config texto */
+        line-height: 60px;
+        text-align: left;
+        vertical-align: top;
+        width: 575px;
+        height: 60px;
+    
+        /* posição */
+        margin-left: 11.88px;
+        margin-top: 96px;
+    }
+    
+    #subtitle-participe {
+          /* config fonte */
+        font-family:'Titillium Web', sans-serif;
+        font-size: 24px;
+        font-weight: 400; /* regular*/
+    
+        /* config texto */
+        line-height: 36.5px;
+        text-align: left;
+        vertical-align: top;
+        width: 368px;
+        height: 37px;
+        
+        /* posição */
+        margin-left: 115.38px;
+        margin-top: 4px;
+    }
+    
+    #texto2 {
+        /* config fonte */
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 20px;
+        font-weight: 400; /* regular*/
+    
+        /* config texto */
+        line-height: 30px;
+        text-align: center;
+        vertical-align: top;
+    
+        /* posição */
+        margin-top: 36px;
+        margin-left: 15.38px;
+        margin-right: 15.63px;
+        margin-bottom: 96px;
+    }
+    
+    #programacao {
+        background-color: #403fff;
+        width: 600px;
+        height: 2223px;
+        top: 1341px;
+        left: 1px;
+        gap: 10px;
+    }
+    
+    #hackathon {
+        /* abrindo img */
+        background-image: url("../img/hackathon-background.png");
+        background-position: center;
+        display: inline-block;
+    
+        /* ajustando tamanho da img */
+        width: 600px;
+        height: 445px;
+    
+        /* fonte branca */
+        color: #ffff;
+    }
+    
+    #hack-data {
+        /* config fonte */
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 400; /* regular */
+        font-size: 24px;
+    
+        /* config texto */
+        line-height: 37px;
+        text-align: left;
+        vertical-align: top;
+        width: 251px;
+        height: 37px;
+    
+        /* posição */
+        margin-top: 183px;
+        margin-left: 17px;
+    }
+    
+    #title-hackathon {
+        /* config fonte */
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 600; /*SemiBold*/
+        font-size: 64px;
+    
+        /* config texto */
+        line-height: 80px;
+        text-align: left;
+        vertical-align: top;
+        width: 473px;
+        height: 80px;
+    
+        /* posição */
+        margin-left: 17px;   
+    }
+    
+    #subtitle-app-challenge {
+        /* config fonte */
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 600; /*SemiBold*/
+        font-size: 42px;
+    
+        /* config texto */
+        line-height: 53px;
+        text-align: left;
+        vertical-align: top;
+        width: 477px;
+        height: 53px;
+    
+        /* posição */
+        margin-left: 17px;
+    }
+    
+    #footer {
+        display: inline-block;
+        /* cor de fundo +letra */
+        background-color: #1E1E1E;
+        color: #ffff;
+    
+        /* tamanho do fundo */
+        width: 600px;
+        height: 395px;
+        top: 4159px;  
+    }
+    
+    #logo-inatel-footer img{
+        /* Tamanho da logo */
+        width: 180px;
+        height: 50px;
+    
+        /* Posição */
+        margin-top: 90px;
+        margin-left: 16px;
+        margin-right: 404px;
+        margin-bottom: 24px;
+    }
+    
+    #inatel-name {
+        /* config fonte */
+        font-family: 'Titillium Web', sans-serif;
+        font-style: italic;
+        font-size: 20px;
+    
+        /* config texto */
+        line-height: 30px;
+        text-align: left;
+        vertical-align: top;
+        width: 376px;
+        height: 30px;
+        
+        /* Ajustando o posicionamento na tela */
+        margin-left: 15px;
+        margin-right: 208px;
+    }
+    
+    #inatel-info {
+        /* config letra */
+        font-family: 'Titillium Web', sans-serif;
+        font-style: regular;
+        font-size: 16px;
+    
+        /* config texto */
+        line-height: 24px;
+        text-align: left;
+        vertical-align: top;
+        width: 322px;
+        height: 72px;
+    
+       /* Ajustando o posicionamento na tela */
+       margin-left: 15px;
+       margin-right: 262px;
+       /* margin-bottom: 130px; */
+    }
+}
+
+
